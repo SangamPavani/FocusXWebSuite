@@ -1,0 +1,111 @@
+3/30/2021 2:43:01 PM - VType: 770 - VNo = 1 - Error - Tags missing
+Inv tag missing::
+3/30/2021 2:43:02 PM - VType: 770 - VNo = 2 - Error - Mandatory field TaxCode
+3/30/2021 2:44:51 PM - VType: 768 - VNo = 1 - Error - Tags missing
+Inv tag missing::
+3/30/2021 2:51:59 PM - VType: 768 - VNo = 3 B4 Body
+3/30/2021 2:51:59 PM - VType: 768 - VNo = 3 - Stk 0 Res 0 Link 0 ResQty 0 MasterInfo 0
+3/30/2021 2:51:59 PM - VType: 768 - VNo = 3 - Voucher posted
+-----------------------------------------------------
+3/30/2021 2:51:59 PM - VType: 768 - VNo = 3 - SQL transaction committed
+---------------------------------------------------------------------------
+3/30/2021 2:51:59 PM - VType: 768 - VNo = 4 B4 Body
+3/30/2021 2:51:59 PM - VType: 768 - VNo = 4 - Stk 0 Res 0 Link 0 ResQty 0 MasterInfo 0
+3/30/2021 2:51:59 PM - VType: 768 - VNo = 4 - Voucher posted
+-----------------------------------------------------
+3/30/2021 2:51:59 PM - VType: 768 - VNo = 4 - SQL transaction committed
+---------------------------------------------------------------------------
+3/30/2021 2:51:59 PM - VType: 768 - VNo = 5 B4 Body
+3/30/2021 2:51:59 PM - VType: 768 - VNo = 5 - Stk 0 Res 0 Link 0 ResQty 0 MasterInfo 0
+3/30/2021 2:51:59 PM - VType: 768 - VNo = 5 - Voucher posted
+-----------------------------------------------------
+3/30/2021 2:51:59 PM - VType: 768 - VNo = 5 - SQL transaction committed
+---------------------------------------------------------------------------
+3/30/2021 2:51:59 PM - VType: 768 - VNo = 6 B4 Body
+3/30/2021 2:51:59 PM - VType: 768 - VNo = 6 - Stk 0 Res 0 Link 0 ResQty 0 MasterInfo 0
+3/30/2021 2:51:59 PM - VType: 768 - VNo = 6 - Voucher posted
+-----------------------------------------------------
+3/30/2021 2:51:59 PM - VType: 768 - VNo = 6 - SQL transaction committed
+---------------------------------------------------------------------------
+3/30/2021 2:57:37 PM - VType: 770 - VNo = 2 B4 Body
+3/30/2021 2:57:37 PM - VType: 770 - VNo = 2 - Link saved
+3/30/2021 2:57:37 PM - VType: 770 - VNo = 2 B4 SaveBillAdjustments
+3/30/2021 2:57:38 PM - VType: 770 - VNo = 2 After SaveBillAdjustments
+3/30/2021 2:57:38 PM - VType: 770 - VNo = 2 - Stk 0 Res 0 Link 0 ResQty 0 MasterInfo 0
+3/30/2021 2:57:38 PM - VType: 770 - VNo = 2 - Voucher posted
+-----------------------------------------------------
+3/30/2021 2:57:38 PM - VType: 770 - VNo = 2 - SQL transaction committed
+---------------------------------------------------------------------------
+3/30/2021 2:57:38 PM - VType: 770 - VNo = 2 - Voucher trigger
+3/30/2021 3:08:56 PM - VType: 770 - VNo = 3 B4 Body
+3/30/2021 3:08:56 PM - VType: 770 - VNo = 3 - Link saved
+3/30/2021 3:08:56 PM - VType: 770 - VNo = 3 - Stk 0 Res 0 Link 0 ResQty 0 MasterInfo 0
+3/30/2021 3:08:56 PM - VType: 770 - VNo = 3 - Voucher posted
+-----------------------------------------------------
+3/30/2021 3:08:56 PM - VType: 770 - VNo = 3 - SQL transaction committed
+---------------------------------------------------------------------------
+3/30/2021 3:08:56 PM - VType: 770 - VNo = 4 B4 Body
+3/30/2021 3:08:56 PM - VType: 770 - VNo = 4 - Link saved
+3/30/2021 3:08:56 PM - VType: 770 - VNo = 4 - Stk 0 Res 0 Link 0 ResQty 0 MasterInfo 0
+3/30/2021 3:08:56 PM - VType: 770 - VNo = 4 - Voucher posted
+-----------------------------------------------------
+3/30/2021 3:08:56 PM - VType: 770 - VNo = 4 - SQL transaction committed
+---------------------------------------------------------------------------
+3/30/2021 3:08:56 PM - VType: 770 - VNo = 5 B4 Body
+3/30/2021 3:08:56 PM - VType: 770 - VNo = 5 - Link saved
+3/30/2021 3:08:56 PM - VType: 770 - VNo = 5 - Stk 0 Res 0 Link 0 ResQty 0 MasterInfo 0
+3/30/2021 3:08:56 PM - VType: 770 - VNo = 5 - Voucher posted
+-----------------------------------------------------
+3/30/2021 3:08:56 PM - VType: 770 - VNo = 5 - SQL transaction committed
+---------------------------------------------------------------------------
+3/30/2021 3:08:56 PM - VType: 770 - VNo = 6 B4 Body
+3/30/2021 3:08:56 PM - VType: 770 - VNo = 6 - Link saved
+3/30/2021 3:08:57 PM - VType: 770 - VNo = 6 - Stk 0 Res 0 Link 0 ResQty 0 MasterInfo 0
+3/30/2021 3:08:57 PM - VType: 770 - VNo = 6 - Voucher posted
+-----------------------------------------------------
+3/30/2021 3:08:57 PM - VType: 770 - VNo = 6 - SQL transaction committed
+---------------------------------------------------------------------------
+3/30/2021 3:22:44 PM - VType: 770 - VNo = 3 B4 Body
+3/30/2021 3:22:45 PM - VType: 770 - VNo = 3 - Link saved
+3/30/2021 3:22:45 PM - VType: 770 - VNo = 3 B4 SaveBillAdjustments
+3/30/2021 3:22:45 PM - VType: 770 - VNo = 3 After SaveBillAdjustments
+3/30/2021 3:22:45 PM - VType: 770 - VNo = 3 - Stk 0 Res 0 Link 0 ResQty 0 MasterInfo 0
+3/30/2021 3:22:45 PM - VType: 770 - VNo = 3 - Voucher posted
+-----------------------------------------------------
+3/30/2021 3:22:45 PM - VType: 770 - VNo = 3 - SQL transaction committed
+---------------------------------------------------------------------------
+3/30/2021 3:24:53 PM - VType: 770 - VNo = 4 B4 Body
+3/30/2021 3:24:54 PM - VType: 770 - VNo = 4 - Link saved
+3/30/2021 3:24:54 PM - VType: 770 - VNo = 4 B4 SaveBillAdjustments
+3/30/2021 3:24:54 PM - VType: 770 - VNo = 4 After SaveBillAdjustments
+3/30/2021 3:24:54 PM - VType: 770 - VNo = 4 - Stk 0 Res 0 Link 0 ResQty 0 MasterInfo 0
+3/30/2021 3:24:54 PM - VType: 770 - VNo = 4 - Voucher posted
+-----------------------------------------------------
+3/30/2021 3:24:54 PM - VType: 770 - VNo = 4 - SQL transaction committed
+---------------------------------------------------------------------------
+3/30/2021 3:38:05 PM - VType: 770 - VNo = 3 B4 Body
+3/30/2021 3:38:05 PM - VType: 770 - VNo = 3 - Link saved
+3/30/2021 3:38:05 PM - VType: 770 - VNo = 3 B4 SaveBillAdjustments
+3/30/2021 3:38:05 PM - VType: 770 - VNo = 3 After SaveBillAdjustments
+3/30/2021 3:38:05 PM - VType: 770 - VNo = 3 - Stk 0 Res 0 Link 0 ResQty 0 MasterInfo 0
+3/30/2021 3:38:05 PM - VType: 770 - VNo = 3 - Voucher posted
+-----------------------------------------------------
+3/30/2021 3:38:05 PM - VType: 770 - VNo = 3 - SQL transaction committed
+---------------------------------------------------------------------------
+3/30/2021 3:43:24 PM - VType: 770 - VNo = 4 B4 Body
+3/30/2021 3:43:24 PM - VType: 770 - VNo = 4 - Link saved
+3/30/2021 3:43:24 PM - VType: 770 - VNo = 4 B4 SaveBillAdjustments
+3/30/2021 3:43:24 PM - VType: 770 - VNo = 4 After SaveBillAdjustments
+3/30/2021 3:43:24 PM - VType: 770 - VNo = 4 - Stk 0 Res 0 Link 0 ResQty 0 MasterInfo 0
+3/30/2021 3:43:24 PM - VType: 770 - VNo = 4 - Voucher posted
+-----------------------------------------------------
+3/30/2021 3:43:24 PM - VType: 770 - VNo = 4 - SQL transaction committed
+---------------------------------------------------------------------------
+3/30/2021 3:46:11 PM - VType: 770 - VNo = 1 - Error - Mandatory field TaxCode
+3/30/2021 3:48:04 PM - VType: 770 - VNo = 5 B4 Body
+3/30/2021 3:48:04 PM - VType: 770 - VNo = 5 - Link saved
+3/30/2021 3:48:04 PM - VType: 770 - VNo = 5 - Stk 0 Res 0 Link 0 ResQty 0 MasterInfo 0
+3/30/2021 3:48:04 PM - VType: 770 - VNo = 5 - Voucher posted
+-----------------------------------------------------
+3/30/2021 3:48:04 PM - VType: 770 - VNo = 5 - SQL transaction committed
+---------------------------------------------------------------------------

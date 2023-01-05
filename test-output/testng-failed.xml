@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.focus.listeners.Listener"/>
+  </listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.focus.testcases.URLBrowserTest"/>
+      <class name="com.focus.testcases.LoginPageCompanyCreationTest"/>
+      <class name="com.focus.testcases.LoginPageSignInTest"/>
+      <class name="com.focus.testcases.HPWrapperLayoutTest"/>
+      <class name="com.focus.testcases.MasterAccountsTest"/>
+      <class name="com.focus.testcases.SmokeCurrencyTest"/>
+      <class name="com.focus.testcases.MasterUnitTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.focus.testcases.URLBrowserTest">
+        <methods>
+          <include name="beforeMethodExecution"/>
+          <include name="generateReports"/>
+          <include name="intialiseReports"/>
+          <include name="openBrowser"/>
+          <include name="afterMethodExecution"/>
+        </methods>
+      </class> <!-- com.focus.testcases.URLBrowserTest -->
+      <class name="com.focus.testcases.MasterUnitTest">
+        <methods>
+          <include name="beforeMethodExecution"/>
+          <include name="verifyYesRowDeleteOptionInExchangeRate"/>
+          <include name="verifyRowDeleteFieldInExchangeRate"/>
+          <include name="checkOpenUnitsMenu"/>
+          <include name="afterMethodExecution"/>
+          <include name="verifyRowDeleteOptionInExchangeRate"/>
+        </methods>
+      </class> <!-- com.focus.testcases.MasterUnitTest -->
+      <class name="com.focus.testcases.SmokeCurrencyTest">
+        <methods>
+          <include name="beforeMethodExecution"/>
+          <include name="checkDeleteRowInUSDExchangeRate"/>
+          <include name="checkUSDUpdatedWithRowDeleteValuesInSavedExchangeRate"/>
+          <include name="checkDeleteOptionWithYesInExchangeRate"/>
+          <include name="afterMethodExecution"/>
+          <include name="checkSaveAEDExchangeRate"/>
+        </methods>
+      </class> <!-- com.focus.testcases.SmokeCurrencyTest -->
+      <class name="com.focus.testcases.LoginPageCompanyCreationTest">
+        <methods>
+          <include name="beforeMethodExecution"/>
+          <include name="verifyCalenderTypeValuesInCreateCompany"/>
+          <include name="afterMethodExecution"/>
+          <include name="checkCompanyCreatePageFields"/>
+        </methods>
+      </class> <!-- com.focus.testcases.LoginPageCompanyCreationTest -->
+      <class name="com.focus.testcases.HPWrapperLayoutTest">
+        <methods>
+          <include name="verifyRecentMenu"/>
+          <include name="beforeMethodExecution"/>
+          <include name="verifySaveWithoutInputMandatoryFields"/>
+          <include name="verifyAlertByUpdatingCompanyClickOnOkButton"/>
+          <include name="verifyAvailabilityOptionsInWrapperLayout"/>
+          <include name="verifyClickOnAbout"/>
+          <include name="verifySaveWithValidInputOldNewConfirmPassowrd"/>
+          <include name="verifyLoginAfterChangePasswordChangePasswordAndLogout"/>
+          <include name="verifySearchOptionByInputingEditCompany"/>
+          <include name="verifySaveWithoutInputNewPasswordMandatoryFields"/>
+          <include name="verifySaveWithMissmatchInputNewPasswordConfirmPassword"/>
+          <include name="verifySelectEditCompanyFromSearch"/>
+          <include name="verifyAvailabilityOptionsInAboutIdQuickAccessMenu"/>
+          <include name="verifyCloseBtnInChangePasswordAndCheckLogout"/>
+          <include name="verifyChangePassword"/>
+          <include name="verifySaveWithInvalidOldPassword"/>
+          <include name="verifySaveWithoutInputConfirmPasswordMandatoryFields"/>
+          <include name="afterMethodExecution"/>
+          <include name="verifyCloseEditCompanyPageClickOnCancelButton"/>
+          <include name="verifySaveSameInputOldPasswordNewPassword"/>
+        </methods>
+      </class> <!-- com.focus.testcases.HPWrapperLayoutTest -->
+      <class name="com.focus.testcases.LoginPageSignInTest">
+        <methods>
+          <include name="beforeMethodExecution"/>
+          <include name="afterMethodExecution"/>
+        </methods>
+      </class> <!-- com.focus.testcases.LoginPageSignInTest -->
+      <class name="com.focus.testcases.MasterAccountsTest">
+        <methods>
+          <include name="verifyPasteOptionAndClickOnSaveForDuplicateName"/>
+          <include name="verifyNewTreeTabUpdateTab"/>
+          <include name="verifyYesDeleteAccount"/>
+          <include name="verifyNoOptionMoveDeleteInSettingsTab"/>
+          <include name="verifyCustomizeMasterTabOptionAfterAddingTabsWithLogout"/>
+          <include name="checkPreviewOption"/>
+          <include name="verifyAddGroupButton"/>
+          <include name="verifySettingsTabOptionsButton"/>
+          <include name="verifyLogoutAfterAddingTabsInCustomization"/>
+          <include name="verifySaveAccountByUsingCloneOption"/>
+          <include name="verifyNewInCreateTab"/>
+          <include name="verifyGeneralTabsInCustomizeMaster"/>
+          <include name="verifyDeleteOptionWithoutSelectAccount"/>
+          <include name="verifyDetailsTabInPreviewOption"/>
+          <include name="verifySaveButtonInAddGroupWithInputingMandatoryFields"/>
+          <include name="verifyUpateForNewlyCreateAccount"/>
+          <include name="verifyOpenAccountsMaster"/>
+          <include name="verifyCopyOptionByEditAccount"/>
+          <include name="verifySettingsTabInPreviewOption"/>
+          <include name="verifyCloneOptionInEditAccount"/>
+          <include name="verifyUpdatedAccountAddGroupDisplayInAccountGrid"/>
+          <include name="verifyDocumentTabInPreviewOption"/>
+          <include name="verifyGeneralTabHeaderTabInCustomizeMaster"/>
+          <include name="verifyUpdatedAccountDisplayInAccountGrid"/>
+          <include name="verifyMoveDeleteInSettingsTab"/>
+          <include name="verifyMasterCmbMasters"/>
+          <include name="verifyCloneOptionWithoutRowSelectToOpenAccountsMenu"/>
+          <include name="verifyGenralTabOnClickOnAddGroupButton"/>
+          <include name="verifyPrintlayoutTabOnClickOnAddGroupButton"/>
+          <include name="verifyUpateForNewlyCreateAddGroupAccount"/>
+          <include name="verifySaveButtonWithoutInputingCodeMandatoryFields"/>
+          <include name="verifyNewDocumentTabGroup"/>
+          <include name="verifySaveButtonWithoutInputingNameMandatoryFields"/>
+          <include name="verifyEditOptionForNewlyCreateAddGroupAccount"/>
+          <include name="verifyPropertiesOptionForAccount"/>
+          <include name="verifyGeneralTabInPreviewOption"/>
+          <include name="verifySettingsTabOnClickOnAddGroupButton"/>
+          <include name="verifyTreeTabUpdateInPreviewOption"/>
+          <include name="verifyOkButtonInPropertiesOptionForAccountGroup"/>
+          <include name="verifyDefaultDeleteInSettingsTab"/>
+          <include name="verifyCancelButtonInPropertiesOptionForAccount"/>
+          <include name="verifyDefaultFieldMoveInSettingsTab"/>
+          <include name="verifyOpenAccountsMasterAfterLogout"/>
+          <include name="verifySaveButtonWithoutInputNameMandatoryFieldsInAddGroupOption"/>
+          <include name="verifyCreateTreeToggleOptionsAccountsMaster"/>
+          <include name="verifyMainPageHeaderFieldsOptionsAccountsMaster"/>
+          <include name="verifyAccountCreateDisplayInAccountsGrid"/>
+          <include name="verifyCreateDocumentTabCreationWithExistingDocumentTab"/>
+          <include name="afterMethodExecution"/>
+          <include name="verifyCloseAccountMaster"/>
+          <include name="verifyNewTreeTabUpdateTabGroup"/>
+          <include name="verifySaveUsingCopyAndPasteOption"/>
+          <include name="verifyAccountAddGroupCreationScreenAfterSaving"/>
+          <include name="verifyCustomizeMasterTabMasterFieldsOptionAfterAddingTabs"/>
+          <include name="verifyPreviewButtonBeforeLogout"/>
+          <include name="verifyPropertiesOptionForAccountGroup"/>
+          <include name="verifyGeneralTabOptionsButton"/>
+          <include name="verifyOkButtonInMoveField"/>
+          <include name="verifyNewInCreateTabGroup"/>
+          <include name="verifySignToCheckTabsInCustomization"/>
+          <include name="verifySaveButtonWithoutInputCodeMandatoryFieldsInCloneOption"/>
+          <include name="checkSaveAccountsByCreatingVATAccounts"/>
+          <include name="verifyDeleteOptionWithSelectAccount"/>
+          <include name="verifyNewButton"/>
+          <include name="verifyAccountNewlyAddGroupDisplayInAccountGrid"/>
+          <include name="verifyCloseBtnCustomizeMaster"/>
+          <include name="checkSaveCOGSAccount"/>
+          <include name="checkValidationHideAccountGroupsOptionsAccountsMenuBySelectingNewBtn"/>
+          <include name="verifyCreateTabInPreviewOption"/>
+          <include name="verifySaveButtonWithInputingMandatoryFields"/>
+          <include name="verifyDetailsTabOptionsButton"/>
+          <include name="verifyByCloneOptionAccountInformation"/>
+          <include name="verifyCloseAccountMasterForAccountTestingStop"/>
+          <include name="verifyPrintLayoutTabOptionsButton"/>
+          <include name="verifyNewButtonBeforeCustomization"/>
+          <include name="verifyClickOnGroupToDisplayEmpty"/>
+          <include name="verifyOpenAccountsMasterAfterCustomization"/>
+          <include name="verifyCloseBtnPreviewOptionBeforeLogout"/>
+          <include name="verifyEditOptionForNewlyCreateAccount"/>
+          <include name="verifyNewDocumentTab"/>
+          <include name="verifyAccountOneCreationWithPropertyAsCDForEachUnderGroup"/>
+          <include name="verifySaveAccountByUsingEditCloneInMaster"/>
+          <include name="verifyDetailsTabOnClickOnAddGroupButton"/>
+          <include name="verifyCloneByEditCreationOfAccountDisplay"/>
+          <include name="verifyCancelButtonInDeleteAccount"/>
+          <include name="verifyYesOptionMoveDeleteInSettingsTab"/>
+          <include name="beforeMethodExecution"/>
+          <include name="verifySaveButtonWithoutInputNameMandatoryFieldsInCloneOption"/>
+          <include name="verifyPrintLayoutsTabInPreviewOption"/>
+          <include name="verifyCopyAndPasteCreationOfAccountDisplay"/>
+          <include name="verifyAccountDisplayCreationOfAccountThroughMainClone"/>
+          <include name="verifyCloseBtnPreviewOption"/>
+          <include name="verifySelectAccountGroupAccountMasterDisplayInMainPageGridAccountsMaster"/>
+          <include name="verifySaveButtonWithoutInputCodeMandatoryFieldsInAddGroupOption"/>
+          <include name="verifyDeleteAccountDisplay"/>
+          <include name="verifyMoveFieldMovedToSettingsTab"/>
+          <include name="verifyCopyPasteAccountInformationOption"/>
+        </methods>
+      </class> <!-- com.focus.testcases.MasterAccountsTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

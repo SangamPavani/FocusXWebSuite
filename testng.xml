@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <listeners>
+ <listener class-name="com.focus.listeners.Listener"></listener>
+ </listeners>
+  <test thread-count="5" name="Test">
+   <classes>
+        
+      <class name="com.focus.testcases.URLBrowserTest"/>
+  	  
+	<class name="com.focus.testcases.LoginPageCompanyCreationTest"/>
+    <class name="com.focus.testcases.LoginPageSignInTest"/>  
+   	<class name="com.focus.testcases.HPWrapperLayoutTest"/> 
+    <class name="com.focus.testcases.MasterAccountsTest"/>
+  	<class name="com.focus.testcases.SmokeCurrencyTest"/> 
+ 	<class name="com.focus.testcases.MasterUnitTest"/>  
+ 	<class name="com.focus.testcases.MasterBinsTest"/>
+   	<class name="com.focus.testcases.MasterDepartmentTest"/>
+    <class name="com.focus.testcases.MasterWarehouseTest"/>  
+  	<class name="com.focus.testcases.MasterItemTest"/> 
+  	<class name="com.focus.testcases.SmokePreferencesTest"/>
+   	<class name="com.focus.testcases.SmokeDCTest"/> 
+   	<class name="com.focus.testcases.SettingsWizardAndStandardRateDefintionTest"/>
+   	<class name="com.focus.testcases.SecuritySmokeTest"/>  
+    <class name="com.focus.testcases.MasterBuyingAndSellingTest"/> 
+   	<class name="com.focus.testcases.SmokeDocCustViewTest"/>
+   	<class name="com.focus.testcases.ConfigureMasterTest"/> 
+   	<class name="com.focus.testcases.SmokeTransactionAuthorizationDefinitionTest"/>  
+   	<class name="com.focus.testcases.SmokeMasterAuthorizationDefinitionTest"/>
+   	<class name="com.focus.testcases.SmokeDesignWorkFlowTest"/> 
+	<class name="com.focus.testcases.SmokeBudgetTest"/> 
+   		  
+   	   <!-- <class name="com.focus.testcases.OpeningStockTest"/> 
+       <class name="com.focus.testcases.OpeningBalanceTest"/>
+       
+       
+   	   <class name="com.focus.testcases.SmokeBudgetVouchersMRPOTest"/> 
+   	   <class name="com.focus.testcases.PurchaseVoucherVatTest"/>  
+   	   <class name="com.focus.testcases.PaymentsVoucherTest"/>  -->   
+   	      
+   	   <!-- <class name="com.focus.testcases.VoucherSalesTest"/>   
+   	   <class name="com.focus.testcases.VoucherReserveAndReleaseTest"/>  
+   	   <class name="com.focus.testcases.SmokeVouchersStocksAndReturnsTest"/> 	
+   	   <class name="com.focus.testcases.VouchersExcessAndShortagesTest"/>  -->
+   	   
+   	  <!--  <class name="com.focus.testcases.ReceiptsVoucherTest"/> -->
+   	 <!--   <class name="com.focus.testcases.DebitNoteVatTest"/> -->
+   	  <!--  <class name="com.focus.testcases.CreditNotesVatTest"/> -->
+   	 <!--   <class name="com.focus.testcases.JVVATTest"/> -->
+   	 <!-- <class name="com.focus.testcases.pdcVoucherTest"/> -->
+   	   
+
+   	 <!-- <class name="com.focus.testcases.InventoryReportsTest"/> -->
+   	   
+   	  <!-- <class name="com.focus.testcases.FAReportsTest"/> -->
+   	   
+   	    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite --> 
